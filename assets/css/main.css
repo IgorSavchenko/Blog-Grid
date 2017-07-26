@@ -182,3 +182,30 @@ img {
   opacity: 0.5;
   color: #fff;
 }
+
+/*LOAD CONTENT*/
+
+.loading-content {
+  margin: 80px auto 30px;
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: flex;
+  justify-content: center;
+}
+
+.loader {
+  width: 30px;
+  height: 28px;
+  color: rgb(137, 150, 163);
+  border: none;
+  margin-right: 13px;
+}
+
+.loading__title {
+  font-size: 13px;
+  font-weight: 900;
+  line-height: 30px;
+  letter-spacing: 0.3px;
+  text-transform: uppercase;
+  color: rgb(153, 165, 176);
+}
